@@ -383,6 +383,7 @@ header.sticky {
     max-width: 950px;
     line-height: 30px;
     margin-bottom: 3rem;
+    margin-left: 20px;
 }
 
 .social i {
