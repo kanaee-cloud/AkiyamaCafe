@@ -409,6 +409,7 @@ header.sticky {
     align-items: center;
     gap: 3rem;
     justify-content: center;
+    background: var(--main-color) 100px 50px;
 }
 
 .main-d a {
@@ -435,8 +436,8 @@ header.sticky {
 
 .scroll i {
     font-size: 22px;
-    color: var(--text-color);
-    background: var(--p-color);
+    color: var(--p-color);
+    background: var(--main-color);
     padding: 10px;
     border-radius: 2rem;
 }
