@@ -10,11 +10,12 @@
 }
 
 :root {
-    --main-color : #e60202;
-    --text-color : #fff;
-    --other-color : #212121;
-    --second-color : #9e9e9e;
-    --bg-color : #0f0f0f;
+    --main-color : #181717;
+    --text-color : #0f0f0f;
+    --other-color : #959794;
+    --second-color : #d60101;
+    --bg-color : #ffffff;
+    --p-color : #ffffff;
 
     --big-font : 4.5rem;
     --h2-font : 2.6rem;
@@ -68,13 +69,13 @@ header {
 .navbar a:hover {
     color: var(--p-color);
     background: var(--main-color);
-    box-shadow: #e60202 0px 1px 25px;
+    box-shadow: #181717 0px 1px 25px;
 }
 
 .navbar a.active {
     color: var(--p-color);
     background: var(--main-color);
-    box-shadow: #e60202 0px 1px 25px;
+    box-shadow: #181717 0px 1px 25px;
 }
 
 .nav-icons {
@@ -83,13 +84,13 @@ header {
     padding: 8px 15px;
     background: var(--main-color);
     border-radius: 3rem;
-    box-shadow: #e60202 0px 1px 25px;
+    box-shadow: #181717 0px 1px 25px;
 }
 
 .nav-icons i {
     vertical-align: middle;
     font-size: 25px;
-    color: var(--bg-color);
+    color: var(--p-color);
     margin-right: 8px;
     margin-left: 5px;
     transition: all .50s ease;
@@ -123,8 +124,9 @@ section{
 }
 
 .home-img img {
-    width: 100%;
+    width: 90%;
     height: auto;
+    box-shadow: #181717 0px 1px 25px;
 }
 
 .home-text h1 {
@@ -135,7 +137,7 @@ section{
 }
 
 span {
-    color: var(--main-color);
+    color: var(--second-color);
 }
 
 .btn {
@@ -160,7 +162,7 @@ span {
 .btn:hover {
     background:var(--other-color);
     color: var(--main-color);
-    box-shadow: #e60202 0px 1px 25px;
+    box-shadow: #181717 0px 1px 25px;
 }
 
 .btn2 {
@@ -192,24 +194,27 @@ header.sticky {
 }
 .container-box {
     padding: 43px 43px 43px 43px;
-    background: var(--main-color);
+    background: var(--bg-color);
     border-radius: 3rem;
+    box-shadow: #181717 0px 1px 25px;
 }
 
 .container-box img {
     width: 100%;
     max-width: 50px;
     height: auto;
+    color: var(--bg-color);
 }
 
 .container-box h3 {
     font-size: 31px;
     font-weight: bold;
     margin: 16px 0;
+    color: var(--main-color);
 }
 
 .container-box a {
-    color: var(--text-color);
+    color: var(--main-color);
     font-size: var(--p-font);
     letter-spacing: 1px;
     transition: all .50s ease;
@@ -227,8 +232,9 @@ header.sticky {
 }
 
 .about-img img {
-    width: 100%;
+    width: 90%;
     height: auto;
+    box-shadow: #181717 0px 1px 25px;
 }
 
 .about-text h2 {
@@ -238,7 +244,7 @@ header.sticky {
 }
 
 .about-text p {
-    color: var(--second-color);
+    color: var(--text-color);
     font-size: var(--p-font);
     line-height: 30px;
     margin-bottom: 3rem;
@@ -270,13 +276,15 @@ header.sticky {
 .row {
     position: relative;
     padding: 10px 15px 40px;
-    background-color: var(--other-color);
+    background-color: var(--main-color);
     border-radius: 3rem;
+    box-shadow: #181717 0px 1px 25px
 }
 
 .row img {
-    width: 100;
-    height: 150;
+    width: 200;
+    height: auto;
+    border-radius: 30px;
     transition: transform .50s ease;
     cursor: pointer;
 }
@@ -285,10 +293,11 @@ header.sticky {
     font-size: 18px;
     margin: 5px;
     font-weight: 700;
+    color: var(--bg-color);
 }
 
 .row p{
-    color: var(--second-color);
+    color: var(--bg-color);
     font-size: var(--p-font);
     line-height: 30px;
     margin-bottom: 1.1rem;
@@ -302,7 +311,7 @@ header.sticky {
 
 .in-text .price h6 {
     font-size: 17px;
-    color: var(--main-color);
+    color: var(--bg-color);
     font-weight: 600;
 }
 
@@ -319,20 +328,9 @@ header.sticky {
 }
 
 .in-text .s-btnn a:hover {
-    background: var(--main-color);
+    background: var(--second-color);
     color: var(--bg-color);
-    box-shadow: #e60202 0px 1px 25px;
-}
-
-.top-icon {
-    position: absolute;
-    top: 30px;
-    left: 35px;
-}
-
-.top-icon i {
-    font-size: 22px;
-    color: var(--main-color);
+    box-shadow: #181717 0px 1px 25px;
 }
 
 .row-btn {
@@ -365,6 +363,8 @@ header.sticky {
     height: auto;
     cursor: pointer;
     transition: all .50s ease;
+    border-radius: 10px;
+    box-shadow: #181717 0px 1px 25px;
 }
 
 .contact-text {
@@ -384,6 +384,7 @@ header.sticky {
     line-height: 30px;
     margin-bottom: 3rem;
     margin-left: 20px;
+    justify-content: center;
 }
 
 .social i {
@@ -422,7 +423,7 @@ header.sticky {
     vertical-align: middle;
     margin-right: 12px;
     font-size: 28px;
-    color: var(--main-color);
+    color: var(--second-color);
 }
 
 .scroll {
@@ -435,7 +436,7 @@ header.sticky {
 .scroll i {
     font-size: 22px;
     color: var(--text-color);
-    background: var(--main-color);
+    background: var(--p-color);
     padding: 10px;
     border-radius: 2rem;
 }
